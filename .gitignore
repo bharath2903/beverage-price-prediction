@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# IDE project files (JetBrains)
+.idea/
+
+# Streamlit local state
+.streamlit/cache/
+.streamlit/state/
+
+# Jupyter auto checkpoints (you already ignore the generic path, this is extra safety)
+**/.ipynb_checkpoints/
+
+
+
+
